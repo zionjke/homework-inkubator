@@ -11,9 +11,7 @@ type Props = {
 function Message({avatar, name, message, time}: Props) {
     return (
         <div className={styles.message}>
-            <div>
-                <img className={styles.avatar} src={avatar} alt="Avatar"/>
-            </div>
+            <img className={styles.avatar} src={avatar} alt="Avatar"/>
             <div className={styles.message_container}>
                 <div>
                     {name}
